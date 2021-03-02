@@ -1,0 +1,23 @@
+.main-content{
+          display: flex;
+          margin: 150px;
+}
+.textItems{
+          color: rgb(216, 212, 212);
+          width: 700px;
+}
+.textItems h1{
+         font-size: 80px; 
+         margin-bottom: -10px;  
+}
+.textItems p{
+          font-size: 18px;
+}
+.carouselPic img{
+          display: inline !important;
+          width: 280px;
+          height: 400px;
+}
+.img1{
+          
+}

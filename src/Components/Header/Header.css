@@ -1,0 +1,50 @@
+.home-content{
+          background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../Image/Rectangle\ 1.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          height: 100vh; 
+          width: 100vw;
+          background-position: center;
+          
+}
+
+.logo{
+    filter: brightness(600%);
+    width: 9em;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+.form{
+    margin-top: 54px;
+    margin-left: 140px;
+}
+
+.form input{
+    background-color: rgb(153, 150, 150);
+    height: 30px;
+    width: 420px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+   
+}
+
+.icon{
+    filter: brightness(600%);
+    background-color: white;
+
+}
+.nav{
+    margin-top: 55px;
+    margin-left: 250px;
+}
+.nav p{
+    font-size:20px;
+    color:white;
+    display: inline;
+    margin-left: 70px;
+    cursor: pointer;
+
+}
