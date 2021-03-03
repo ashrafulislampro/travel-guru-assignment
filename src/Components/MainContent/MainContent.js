@@ -16,32 +16,58 @@ const MainContent = () => {
           <ArrowForwardIcon style={{ marginLeft: '8px' }}></ArrowForwardIcon>
         </Button>
       </div>
-      <div className="carouselPic">
 
+      <div className="row">
         <Carousel>
-          <Carousel.Item interval={1000}>
-            <img
-              className=" img1"
-              src="https://i.ibb.co/R3Mg80K/Sajek.png"
-              alt="First slide"
-            />
+
+          <Carousel.Item interval={4000}>
+            <div className="col-md-4">
+              <div className="box">
+                <img
+                  className="d-block w-30"
+                  src="https://i.ibb.co/R3Mg80K/Sajek.png"
+                  alt="First slide"
+                />
+              </div>
+            </div>
+            <Carousel.Caption>
+              <h1>Sajek</h1>
+
+            </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={500}>
-            <img
-              className=" img1"
-              src="https://i.ibb.co/xLwYJzg/Sreemongol.png"
-              alt="Second slide"
-            />
+          <Carousel.Item interval={4000}>
+            <div className="col-md-4">
+              <div className="box">
+                <img
+                  className="d-block w-30"
+                  src="https://i.ibb.co/xLwYJzg/Sreemongol.png"
+                  alt="Second slide"
+                />
+              </div>
+            </div>
+            <Carousel.Caption>
+              <h1>Sreemongol</h1>
+
+            </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={500}>
-            <img
-              className=" img1"
-              src="https://i.ibb.co/QJQ6SY0/sundorbon.png"
-              alt="Third slide"
-            />
+          <Carousel.Item interval={3000}>
+            <div className="col-md-4">
+              <div className="box">
+              <img
+                className="d-block w-30"
+                src="https://i.ibb.co/QJQ6SY0/sundorbon.png"
+                alt="Third slide"
+              />
+              </div>
+            </div>
+            <Carousel.Caption>
+              <h1>Sundorban</h1>
+
+            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </div>
+
     </div>
   );
 };

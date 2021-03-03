@@ -1,10 +1,12 @@
 .main-content{
           display: flex;
-          margin: 150px;
+         
 }
 .textItems{
           color: rgb(216, 212, 212);
           width: 700px;
+          margin-top: 300px;
+          margin-left: 150px;
 }
 .textItems h1{
          font-size: 80px; 
@@ -13,11 +15,10 @@
 .textItems p{
           font-size: 18px;
 }
-.carouselPic img{
-          display: inline !important;
-          width: 280px;
-          height: 400px;
+.row{
+          margin: 120px;
 }
-.img1{
-          
+.box img{
+          width: 360px;
+          height: 600px;
 }
